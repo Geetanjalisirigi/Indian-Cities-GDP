@@ -1,0 +1,36 @@
+/* General page style */
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: none;
+    font-family: inherit;
+  }
+  
+/* Use consistent selectors for the page container */
+[data-testid="stAppViewContainer"] {
+    padding: 2rem 0.5rem;
+}
+
+/* Tables */
+.dataframe {
+    border: 1px solid #264653;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Button styles */
+.stButton>button {
+    background-color: #7c41cf;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.stButton>button:hover {
+    background-color: #264653; /* Darker teal on hover */
+}
